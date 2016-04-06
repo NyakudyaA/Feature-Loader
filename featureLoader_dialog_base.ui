@@ -14,7 +14,7 @@
    <string>Feature Loader</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="resources.qrc">
+   <iconset>
     <normaloff>:/plugins/featureLoader/icon.png</normaloff>:/plugins/featureLoader/icon.png</iconset>
   </property>
   <widget class="QComboBox" name="cmbTargetLayer">
@@ -94,7 +94,7 @@
     <string>Start</string>
    </property>
    <property name="icon">
-    <iconset resource="resources.qrc">
+    <iconset>
      <normaloff>:/plugins/featureLoader/start.png</normaloff>:/plugins/featureLoader/start.png</iconset>
    </property>
   </widget>
@@ -187,13 +187,11 @@
     <string>Stop</string>
    </property>
    <property name="icon">
-    <iconset resource="resources.qrc">
+    <iconset>
      <normaloff>:/plugins/featureLoader/cancel.png</normaloff>:/plugins/featureLoader/cancel.png</iconset>
    </property>
   </widget>
  </widget>
- <resources>
-  <include location="resources.qrc"/>
- </resources>
+ <resources/>
  <connections/>
 </ui>
