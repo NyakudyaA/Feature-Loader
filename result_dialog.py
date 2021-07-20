@@ -22,12 +22,15 @@
 """
 
 import os
-from PyQt4 import QtGui, uic
+
+from PyQt5 import uic
+from PyQt5.QtWidgets import QDialog
 
 FORM_CLASS, _ = uic.loadUiType(os.path.join(
     os.path.dirname(__file__), 'result.ui'))
 
-class resultDialog(QtGui.QDialog, FORM_CLASS):
+
+class resultDialog(QDialog, FORM_CLASS):
     def __init__(self, parent=None):
         super(resultDialog, self).__init__(parent)
         self.setupUi(self)
